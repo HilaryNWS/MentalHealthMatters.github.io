@@ -34,8 +34,6 @@ img {
 .nav-link:hover {
   color: black;
   background-color: white;
-  padding: 2vmax;
-  margin: -1.5vmax 0 -2vmax 0;
 }
 h1 {
   text-align: center;
@@ -123,7 +121,7 @@ form {
 #additional-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   padding: 3vh 3vw 3vh 0;
 }
 .description-heading,
@@ -136,7 +134,7 @@ form {
 .description-paragraph,
 .author {
   padding: 0;
-  margin: auto;
+  margin: 1vh 2vw;
   font-size: 1.8vmax;
   font-family: 'Spectral';
   line-height: 2.7vmax;
