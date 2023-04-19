@@ -17,15 +17,14 @@ nav {
   width: 100%;
   margin-left: -8px;
   flex-wrap: wrap;
-  padding: 1vmax 0 1vmax 0;
+  padding: 2vmax;
 }
 img {
   max-height: 5.5vmax;
 }
 .nav-link,
 #contact-info,
-.info-link,
-#copyright {
+.info-link {
   text-decoration: none;
   color: white;
   font-size: 1.5vmax;
@@ -96,15 +95,15 @@ form {
   font-family: 'Spectral', serif;
   text-transform: uppercase;
 }
-.guarantee,
-.packages,
+.webpage,
+.apps,
 .experience,
 #contact-info {
   display: flex;
   justify-content: center;
 }
 @media (max-width: 460px) {
-  .packages {
+  .apps {
     flex-direction: column;
   }
 }
@@ -119,8 +118,7 @@ form {
   margin: auto;
   padding: 3vmax;
 }
-.guarantee-description,
-.package,
+.app,
 .experience-description,
 #additional-info {
   display: flex;
@@ -144,10 +142,10 @@ form {
   line-height: 2.7vmax;
   list-style-type: none;
 }
-.packages {
+.apps {
   padding: 2vmax 0 0 0;
 }
-.package {
+.app {
   padding: 2vmax 2vmax 2.5vmax 2vmax;
   margin: 0 3vw 0 3vw;
   max-height: 50vmax;
@@ -159,7 +157,7 @@ form {
   text-align: center;
 }
 @media (max-width: 460px) {
-  .package {
+  .app {
     width: 55vw;
     padding: 3vh 0;
     margin: 2vh auto 0 auto;
@@ -200,9 +198,4 @@ footer {
   justify-content: space-between;
   margin: 0 0 0 65vw;
   padding: 0;
-}
-#copyright {
-  padding: 0;
-  margin-top: 0.5vmax;
-  margin-bottom: 1vmax;
 }
